@@ -1,14 +1,27 @@
-## Getting Started
+## 415. Add Strings
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string.
 
-## Folder Structure
+You must solve the problem without using any built-in library for handling large integers (such as BigInteger). You must also not convert the inputs to integers directly.
 
-The workspace contains two folders by default, where:
+## Example 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Input: num1 = "11", num2 = "123"
+Output: "134"
 
-## Dependency Management
+## Example 2
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Input: num1 = "456", num2 = "77"
+Output: "533"
+
+## Example 3
+
+Input: num1 = "0", num2 = "0"
+Output: "0"
+
+## Constraints
+
+1 <= num1.length, num2.length <= 104
+num1 and num2 consist of only digits.
+num1 and num2 don't have any leading zeros except for the zero itself.

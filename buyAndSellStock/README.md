@@ -1,14 +1,27 @@
-## Getting Started
+## 121. Best Time to Buy and Sell Stock
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
-## Folder Structure
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
-The workspace contains two folders by default, where:
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Example 1
 
-## Dependency Management
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Example 2
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0.
+
+
+## Constraints
+
+1 <= prices.length <= 105
+0 <= prices[i] <= 104

@@ -1,14 +1,24 @@
-## Getting Started
+## 206. Reverse Linked List
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given the head of a singly linked list, reverse the list, and return the reversed list.
 
-## Folder Structure
+## Example 1
 
-The workspace contains two folders by default, where:
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Example 2
 
-## Dependency Management
+Input: head = [1,2]
+Output: [2,1]
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Example 3
+
+Input: head = []
+Output: []
+
+## Constraints
+
+The number of nodes in the list is the range [0, 5000].
+-5000 <= Node.val <= 5000

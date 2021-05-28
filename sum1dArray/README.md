@@ -1,14 +1,28 @@
-## Getting Started
+## 1480. Running Sum of 1d Array
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
-## Folder Structure
+Return the running sum of nums.
 
-The workspace contains two folders by default, where:
+## Example 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
-## Dependency Management
+## Example 2
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Input: nums = [1,1,1,1,1]
+Output: [1,2,3,4,5]
+Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
+
+## Example 3
+
+Input: nums = [3,1,2,10,1]
+Output: [3,4,6,16,17]
+
+## Constraints
+
+1 <= nums.length <= 1000
+-10^6 <= nums[i] <= 10^6

@@ -1,14 +1,30 @@
-## Getting Started
+## 7. Reverse Integer
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 
-## Folder Structure
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-The workspace contains two folders by default, where:
+## Example 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Input: x = 123
+Output: 321
 
-## Dependency Management
+## Example 2
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Input: x = -123
+Output: -321
+
+## Example 3
+
+Input: x = 120
+Output: 21
+
+## Example 4
+
+Input: x = 0
+Output: 0
+
+## Constraints
+
+-231 <= x <= 231 - 1

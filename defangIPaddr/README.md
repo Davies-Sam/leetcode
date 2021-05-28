@@ -1,14 +1,20 @@
-## Getting Started
+## 1108. Defanging an IP Address
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
-## Folder Structure
+A defanged IP address replaces every period "." with "[.]".
 
-The workspace contains two folders by default, where:
+## Example 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Input: address = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
 
-## Dependency Management
+## Example 2
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Input: address = "255.100.50.0"
+Output: "255[.]100[.]50[.]0"
+
+## Constraints
+
+The given address is a valid IPv4 address.

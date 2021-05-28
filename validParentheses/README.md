@@ -1,14 +1,39 @@
-## Getting Started
+## 20. Valid Parentheses
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-## Folder Structure
+An input string is valid if:
 
-The workspace contains two folders by default, where:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Example 1
 
-## Dependency Management
+Input: s = "()"
+Output: true
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Example 2
+
+Input: s = "()[]{}"
+Output: true
+
+## Example 3
+
+Input: s = "(]"
+Output: false
+
+## Example 4
+
+Input: s = "([)]"
+Output: false
+
+## Example 5
+
+Input: s = "{[]}"
+Output: true
+
+## Constraints
+
+1 <= s.length <= 104
+s consists of parentheses only '()[]{}'.

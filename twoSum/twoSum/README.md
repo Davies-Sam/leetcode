@@ -1,14 +1,31 @@
-## Getting Started
+## 1. Two Sum
+## Problem Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-## Folder Structure
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-The workspace contains two folders by default, where:
+You can return the answer in any order.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Example 1
 
-## Dependency Management
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Example 2
+
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+## Example 3
+
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
+## Constraints
+
+2 <= nums.length <= 104
+-109 <= nums[i] <= 109
+-109 <= target <= 109
+Only one valid answer exists.
