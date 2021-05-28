@@ -30,5 +30,7 @@ Output: [true,false,true]
 ## Constraints
 
 2 <= candies.length <= 100
+
 1 <= candies[i] <= 100
+
 1 <= extraCandies <= 50
