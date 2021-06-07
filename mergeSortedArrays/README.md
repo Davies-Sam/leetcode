@@ -29,6 +29,7 @@ Output: [1]
 Explanation: The arrays we are merging are [1] and [].
 
 The result of the merge is [1].
+
 ## Example 3
 
 Input: nums1 = [0], m = 0, nums2 = [1], n = 1
