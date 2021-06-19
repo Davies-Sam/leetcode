@@ -48,8 +48,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## Constraints
 
-0 <= nums.length <= 3 * 104
+0 <= nums.length <= 3 * 10^4
 
--104 <= nums[i] <= 104
+-10^4 <= nums[i] <= 10^4
 
 nums is sorted in non-decreasing order.
