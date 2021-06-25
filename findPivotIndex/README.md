@@ -49,6 +49,6 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 ## Constraints
 
-1 <= nums.length <= 104
+1 <= nums.length <= 10^4
 
 -1000 <= nums[i] <= 1000

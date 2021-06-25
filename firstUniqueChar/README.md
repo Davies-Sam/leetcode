@@ -23,6 +23,6 @@ Output: -1
 
 ## Constraints
 
-1 <= s.length <= 105
+1 <= s.length <= 10^5
 
 s consists of only lowercase English letters.

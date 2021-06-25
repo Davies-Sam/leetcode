@@ -25,6 +25,6 @@ Output: 23
 
 ## Constraints
 
-1 <= nums.length <= 3 * 104
+1 <= nums.length <= 3 * 10^4
 
--105 <= nums[i] <= 105
+-105 <= nums[i] <= 10^5
