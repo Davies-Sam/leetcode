@@ -1,6 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        int[] nums = new int[] {1,2,2,3,3,3,4,4,4,4,5,5,5,5,5};
+        int newLength = removeElement(nums, 3);
+        for(int i = 0 ; i < newLength ; i++){
+            System.out.print(nums[i]);
+        }
     }
 
     public static int removeElement(int[] nums, int val) {
