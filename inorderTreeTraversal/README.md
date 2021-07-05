@@ -1,27 +1,24 @@
-## 771. Jewels and Stones
+## 94. Binary Tree Inorder Traversal
 ## Problem Description
 
-You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
-
-Letters are case sensitive, so "a" is considered a different type of stone from "A".
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 ## Example 1
 
-Input: jewels = "aA", stones = "aAAbbbb"
+Input: root = [1,null,2,3]
 
-Output: 3
+Output: [1,3,2]
 
 ## Example 2
 
-Input: jewels = "z", stones = "ZZ"
+Input: root = [1,2]
 
-Output: 0
+Output: [2,1]
 
 
 ## Constraints
 
-1 <= jewels.length, stones.length <= 50
+The number of nodes in the tree is in the range [0, 100].
 
-jewels and stones consist of only English letters.
+-100 <= Node.val <= 100
 
-All the characters of jewels are unique.
