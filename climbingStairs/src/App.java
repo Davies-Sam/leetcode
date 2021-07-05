@@ -6,7 +6,7 @@ public class App {
 
     public static int climbingStairs(int n) {
         /* use the basics to solve this question
-        and find that its the fibonacci problem.
+        and find that it is the fibonacci problem.
         each stair number can be calculated using
         the number of distinct ways to reach 1 step
         below + # of ways for 2 steps below.
